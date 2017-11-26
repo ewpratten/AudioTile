@@ -1,0 +1,12 @@
+body {
+	background-color: #5b5b8a;
+	color:white;
+	font-family: 'Roboto Slab', serif;
+}
+.content {
+	text-align:center;
+	font-size: xx-large;
+}
+.sub {
+	color: rgba(255, 255, 255, 0.3);
+}
