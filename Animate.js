@@ -1,5 +1,5 @@
 function openLandingPage() {
-
+document.location = "./tiles.php";
 }
 var size = {
   width: window.innerWidth || document.body.clientWidth,
@@ -11,7 +11,7 @@ window.onload = function() {
 };
 
 window.onresize = function(event) {
-  //resizeWrappers();  
+  //resizeWrappers();
 };
 
 function resizeWrappers() {
