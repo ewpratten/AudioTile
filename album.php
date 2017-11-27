@@ -1,6 +1,7 @@
 <?php
 $album_art = "https://f4.bcbits.com/img/a3534973311_10.jpg";
 $artist_name = "RetryLife";
+$tracks = 5;
 ?>
 <head>
 	<link href="https://unpkg.com/picnic" rel="stylesheet">
@@ -17,7 +18,19 @@ $artist_name = "RetryLife";
 	</div>
 	
 	<div class="tracks">
-		(add php to list tracks here)
+		<br>
+		<?php
+		for($i = 1; $i <= $tracks; ++$i){
+			echo "
+		<audio controls>
+  <source src='$track[$i]' type='audio/mpeg'>
+Your browser does not support the audio element.
+</audio>
+<br>
+<br>
+";
+}
+?>
 	</div>
 </div>
 </body>
