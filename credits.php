@@ -1,0 +1,2 @@
+<img src="https://devrant.nuernberger.kim/api/banner?username=ewpratten&subtext=Front%20End" width="100%">
+<img src="https://devrant.nuernberger.kim/api/banner?username=ThatDude&subtext=Everything%20Else" width="100%">
