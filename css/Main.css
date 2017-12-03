@@ -7,6 +7,16 @@ body {
     font-weight: 300;
 }
 
+#tilesPage {
+	opacity: 0;
+	transition: .25s all ease;
+}
+
+#landingPage {
+	opacity: 1;
+	transition: .25s all ease;
+}
+
 #wrapper {
     width: 100%;
     height: 100vh;
