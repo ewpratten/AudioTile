@@ -7,6 +7,11 @@ body {
     font-weight: 300;
 }
 
+a {
+	color: white;
+	text-decoration: none;
+}
+
 #tilesPage {
 	opacity: 0;
 	transition: .25s all ease;

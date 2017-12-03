@@ -21,10 +21,11 @@ if ($loggedIn) {
 
 <!-- responsive-->
 	<ul id="navbarButtons">
-		<li><a href="#">Dashboard</a></li>
-		<li><a href="#">Account</a></li>
+		<li><a href="#" onmouseover="animateBorder(this)">Dashboard
+			<div id="navbarItemBorder"></div></a></li>
+		<li><a href="#" onmouseover="animateBorder(this)">Account</a></li>
 	</ul>
-
+<script src="Tiles.js"></script>
 </nav>
 
 <div class="flex two three-600 six-1200 demo">
