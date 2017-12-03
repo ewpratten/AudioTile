@@ -15,19 +15,48 @@ if ($loggedIn) {
 ?>
 
 <nav id="navigationBar">
-		<a href="/" class="brand">
-		<span>AudioTile</span>
-		</a>
+	<div id="navbarTitle">
+		<a href="/" class="brand">AudioTile</a>
+	</div>
+	
+	<div id="navbarMiddle">
+		<input type="text" id="searchBar" class="textbox" placeholder="Search for song/artist/album" />
+	</div>
 
-<!-- responsive-->
 	<ul id="navbarButtons">
-		<li><a href="#" onmouseover="animateBorder(this)">Dashboard
-			<div id="navbarItemBorder"></div></a></li>
-		<li><a href="#" onmouseover="animateBorder(this)">Account</a></li>
+		<li>
+			<?php
+			if ($loggedIn) {
+				echo '<a href="#" onmouseover="animateBorder(this)">Dashboard
+			<div id="navbarItemBorder"></div></a>';
+			} else {
+				echo '<a href="#" onmouseover="animateBorder(this)">Register
+			<div id="navbarItemBorder"></div></a>';
+			}
+
+			?>
+		</li>
+		<li>
+			<?php 
+			if ($loggedIn) {
+				echo '<a href="#" onmouseover="animateBorder(this)">Account</a>';
+			} else {
+				echo '<a href="#" onmouseover="animateBorder(this)">Login</a>';
+			}
+			?>
+		</li>
 	</ul>
-<script src="Tiles.js"></script>
+	<script src="Script/Tiles.js"></script>
 </nav>
 
-<div class="flex two three-600 six-1200 demo">
+<div id="sideBar">
 
 </div>
+
+<div id="tilesBody">
+
+</div>
+
+<!--<div class="flex two three-600 six-1200 demo">
+
+</div>-->

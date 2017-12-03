@@ -2,10 +2,10 @@
 	<meta charset="utf-8" />
 	<title>AudioTile</title>
 	<link href="https://unpkg.com/picnic" rel="stylesheet">
-	<link href="./css/Main.css" rel="stylesheet">
-	<link href="./css/Tiles.css" rel="stylesheet">
+	<link href="Style/Main.css" rel="stylesheet">
+	<link href="Style/Tiles.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400" rel="stylesheet">
-	<script src="Animate.js"></script>
+	<script src="Script/Animate.js"></script>
 </head>
 <body>
 	
@@ -34,8 +34,13 @@
 	<script>
 		var url = window.location.href;
 		if (url.endsWith('#')) {
-			document.getElementById('landingPage').style.opacity = '0';
-			document.getElementById('tilesPage').style.opacity = '1';
+			var landingPage = document.getElementById('landingPage');
+			var tilesPage = document.getElementById('tilesPage');
+
+			landingPage.style.opacity = '0';
+			tilesPage.style.opacity = '1';
+			landingPage.style.zIndex = '0';
+			tilesPage.style.zIndex = '1000';
 		}
 	</script>
 

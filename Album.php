@@ -5,7 +5,7 @@ $tracks = 5;
 ?>
 <head>
 	<link href="https://unpkg.com/picnic" rel="stylesheet">
-	<link href="./css/album.css" rel="stylesheet">
+	<link href="Style/Album.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
 </head>
 <body>

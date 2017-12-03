@@ -15,11 +15,14 @@ a {
 #tilesPage {
 	opacity: 0;
 	transition: .25s all ease;
+	transform: translateY(-100vh);
 }
 
 #landingPage {
 	opacity: 1;
 	transition: .25s all ease;
+	position: relative;
+	z-index: 1000;
 }
 
 #wrapper {
@@ -71,50 +74,6 @@ a {
 	background-color: white;
 	border-radius: 180px;
 	position: absolute;
-}
-
-#slideWrapper1 {
-	border-bottom-width: calc(50vw - 40px);
-	border-top-width: 0px;
-	border-left: calc(200vh + 40px) solid transparent;
-	overflow: hidden;
-}
-
-#slideWrapper2 {
-	top: 100px;
-	left: 100px;
-	border-top-width: calc(50vw - 40px);
-	border-bottom-width: 0px;
-	border-right: calc(200vh + 40px) solid transparent;
-	overflow: hidden;
-}
-
-#slideWrapper2 .insideWrapper {
-	position: absolute;
-	top: -100vh;
-	left: calc(50vw - 10px);
-	z-index: 100;
-}
-
-.slideWrapper {
-	width: 0;
-	height: 0;
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: 2;
-
-	background-color: transparent;
-	border: 0 solid transparent;
-}
-
-.insideWrapper {
-	z-index: 10;
-	position: absolute;
-	
-	width: 100%;
-	height: 100vh;
-	left: calc(-50vw + 7px);
 }
 
 .b1 {

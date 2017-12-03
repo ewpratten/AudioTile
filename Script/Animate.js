@@ -4,4 +4,6 @@ function openLandingPage() {
 
 	landingPage.style.opacity = '0';
 	tilesPage.style.opacity = '1';
+	landingPage.style.zIndex = '0';
+	tilesPage.style.zIndex = '1000';
 }
