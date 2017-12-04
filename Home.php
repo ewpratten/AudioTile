@@ -1,6 +1,7 @@
 <head>
 	<meta charset="utf-8" />
 	<title>AudioTile</title>
+	<link href="Style/CustomPicnic.css" rel="stylesheet">
 	<link href="https://unpkg.com/picnic" rel="stylesheet">
 	<link href="Style/Main.css" rel="stylesheet">
 	<link href="Style/Tiles.css" rel="stylesheet">

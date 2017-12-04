@@ -16,11 +16,11 @@ if ($loggedIn) {
 
 <nav id="navigationBar">
 	<div id="navbarTitle">
-		<a href="/" class="brand">AudioTile</a>
+		<a href="/" class="brand" style="font-size: 19px">AudioTile</a>
 	</div>
 	
 	<div id="navbarMiddle">
-		<input type="text" id="searchBar" class="textbox" placeholder="Search for song/artist/album" />
+		<input type="text" id="searchBar" class="textbox" placeholder="Search for Song/Artist/Album" />
 	</div>
 
 	<ul id="navbarButtons">

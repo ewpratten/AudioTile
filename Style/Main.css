@@ -13,12 +13,14 @@ a {
 }
 
 #tilesPage {
+	background-color: #24273A;
 	opacity: 0;
 	transition: .25s all ease;
 	transform: translateY(-100vh);
 }
 
 #landingPage {
+	background-color: #24273A;
 	opacity: 1;
 	transition: .25s all ease;
 	position: relative;
