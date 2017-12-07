@@ -10,6 +10,33 @@
     color: white;
 }
 
+#pageFill {
+	width: 100%;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0);
+	position: absolute;
+	/*z-index: 50000;*/
+
+	transition: .5s all ease;
+}
+
+.slideDownForm {
+	width: 600px;
+	height: 400px;
+	top: -402px;
+	background-color: white;
+	padding-top: 60px;
+
+	position: absolute;
+	margin-left: 50%;
+	transform: translateX(-50%);
+
+	text-align: center;
+	/*z-index: 100000;*/
+
+	transition: .5s all ease;
+}
+
 #navbarButtons {
 	float: right;
 	margin-right: 0px;
@@ -103,4 +130,17 @@
 
 .textbox:hover {
 	border-color: #2980B9;
+}
+
+.username, .email, .password {
+	width: 350px;
+	height: 40px;
+	margin-bottom: 10px;
+}
+
+.register {
+	width: 125px;
+	height: 40px;
+	float: right;
+	margin-right: 126px;
 }

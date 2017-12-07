@@ -7,6 +7,7 @@
 	<link href="Style/Tiles.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400" rel="stylesheet">
 	<script src="Script/Animate.js"></script>
+	<script src="http://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 </head>
 <body>
 	
@@ -22,7 +23,7 @@
 				<div class="content">
 					<h1>AudioTile</h1>
 					<h4 class="sub">Share Your Music</h4>
-					<a href="#"><button onclick="openLandingPage()">Let's Go!</button></a>
+					<a href="#Dashboard"><button onclick="openLandingPage()">Let's Go!</button></a>
 				</div>
 			</div>
 		</div>
@@ -34,7 +35,7 @@
 	
 	<script>
 		var url = window.location.href;
-		if (url.endsWith('#')) {
+		if (url.endsWith('#Dashboard')) {
 			var landingPage = document.getElementById('landingPage');
 			var tilesPage = document.getElementById('tilesPage');
 
